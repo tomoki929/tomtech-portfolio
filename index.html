@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シングルページレイアウト</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <p class="site-title-sub">Web programmer's portfolio</p>
+        <h1 class="site-title">HI, MY NAME IS TOM</h1>
+        <p class="site-description">Check out some of my works.</p>
+        <div class="buttons">
+            <a href="#about" class="button">LEARN MORE</a>
+            <a href="#contact" class="button button-showy">SEND MESSAGE</a>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <h2 class="heading">ABOUT ME</h2>
+        <p class="about-text">
+            はじめまして。プログラマーとして活動しております。<br>大学を卒業して、IT企業での業務経験を経て、現在はフリーランスとして働いております。
+        </p>
+        <p class="about-text">
+            趣味：お笑い。ラジオを聞くこと。サッカーをすること。格闘技を観ること。
+            <br>好きな食べ物：焼肉、すし。
+            <br>最近気になること：AI、IoT、ドローン、起業、投資
+            <br>習得したい技術：Go、Python、Docker、AWS、GCP、Elixir/Phoenix、CircleCI
+        </p>
+    </section>
+    <section class="works">
+        <h2 class="heading">WORKS</h2>
+        <div class="works-wrapper">
+            <div class="work-box tree">
+                <img src="images/tomtech-blog.png" alt="制作事例1" class="work-image">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                            ブログサイト<br>
+                            プログラミング・趣味・考え事などを記事にまとめています。<br>
+                            使用技術：WordPress、HTML、CSS<br>
+                            <a href="https://tomtech-blog.com/" class="button button-ghost">READ MORE</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-box building">
+                <img src="images/scraping-training.png" alt="制作事例2" class="work-image">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                            会社情報掲載サイト<br>
+                            簡易な転職サイト・就職サイトを真似て作成しました。<br>
+                            使用技術：PHP/Laravel、HTML、CSS<br>
+                            <a href="http://scraping-training.herokuapp.com/" class="button button-ghost">READ MORE</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-box lake">
+                <img src="images/science-board.png" alt="制作事例3" class="work-image">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                            おもしろチャンネルサイト<br>
+                            趣味や話題などについてチャットできるサイトです。<br>
+                            使用ツール：PHP/Laravel, HTML, CSS<br>
+                            <a href="#" class="button button-ghost">READ MORE</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-box sky">
+                <img src="images/sky.jpg" alt="制作事例4" class="work-image">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                            ４つ目の制作事例が入ります。<br>
+                            簡単な説明が入ります。<br>
+                            使用ツール：XXX, XXX, XXX<br>
+                            <a href="#" class="button button-ghost">READ MORE</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <h2 class="heading">MY SKILLS</h2>
+        <div class="skills-wrapper">
+            <div class="skill-box">
+                <i class="skill-icon fas fa-server"></i>
+                <div class="skill-title">バックエンド</div>
+                <p class="skill-text">
+                   PHP/Laravel<br>
+                   WEBアプリケーションの作成
+                </p>
+            </div>
+            <div class="skill-box">
+                <i class="skill-icon fas fa-code"></i>
+                <div class="skill-title">フロントエンド</div>
+                <p class="skill-text">
+                   HTML/CSS、javascript、jQuery<br>
+                   動的なWEBサイトの作成
+                </p>
+            </div>
+            <div class="skill-box">
+                <i class="skill-icon fas fa-database"></i>
+                <div class="skill-title">データベース</div>
+                <p class="skill-text">
+                    MySQL<br>
+                    テーブルの作成・削除・結合
+                </p>
+            </div>
+       </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT</h2>
+        <form action="" class="contact-form">
+            <input type="text" name="name" placeholder="NAME">
+            <textarea name="message" placeholder="MESSAGE"></textarea>
+            <input type="submit" value="SEND">
+        </form>
+    </section>
+    <footer class="footer">
+        @ sample site
+    </footer>
+    <script src="lib/placeholders.min.js"></script>
+</body>
+</html>
